@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "trainingApi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node trainingApi.js"
+  },
+  "author": "Aamir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "pg": "^8.6.0"
+  }
+}
